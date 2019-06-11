@@ -25,19 +25,19 @@ client2.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === prefix+'راتب'){
+    if(message.content === prefix+'daily'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === prefix+'مبلغ'){
+    if(message.content === prefix+'creadits'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === prefix+'ريب'){
+    if(message.content === prefix+'rep'){
         message.channel.send("#rep "+"<@" + myid + ">")
     }
 });

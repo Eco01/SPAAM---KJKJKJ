@@ -2,7 +2,7 @@
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const myid = [''];
-const prefix = ['-'];
+const prefix = ['--'];
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -47,7 +47,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`** Hi !!**[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -76,19 +76,19 @@ if (!rank) return message.reply(' ')
 });
 
 client2.on('message', message => {
-    if(message.content === prefix+'راتب'){
+    if(message.content === prefix+'daily'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === prefix+'مبلغ'){
+    if(message.content === prefix+'creadits'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === prefix+'ريب'){
+    if(message.content === prefix+'rep'){
         message.channel.send('#rep <@286088294234718209>')
     }
 });
@@ -98,7 +98,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`** bye !!**[ " ${x} " ]`)
           .then(m => {
             count++;
           })

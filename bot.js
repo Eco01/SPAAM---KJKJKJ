@@ -126,6 +126,10 @@ if (!rank) return message.reply(' ')
   }
 });
 
+
+client.login(process.env.TOKEN);
+client2.login(process.env.TOKEN2);
+
 //say
 client.on('message', message => {
   if (message.author.bot) return;
@@ -136,11 +140,8 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "1say") {
+  if (command == "say") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
  });
-
-client.login(process.env.TOKEN);
-client2.login(process.env.TOKEN2);

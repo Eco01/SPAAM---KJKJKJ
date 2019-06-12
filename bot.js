@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const myid = [''];
-const prefix = ['0'];
+const prefix = ['='];
 
 client.on('ready', () => {
    console.log(`----------------`);

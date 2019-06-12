@@ -6,7 +6,7 @@ const prefix = ['1'];
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`Credit Farmm `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -18,7 +18,7 @@ client.on('ready', () => {
 
 client2.on('ready', () => {
    console.log(`----------------`);
-   console.log(`2 Account Online ✩' `);
+   console.log(`3 Account Online ✩' `);
    console.log(`----------------`);
 });
 
@@ -160,3 +160,5 @@ client.on('message', message => {
    message.delete()
   }
  });
+
+client2.login(process.env.TOKEN3);

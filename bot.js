@@ -48,7 +48,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Eco is :heart: !! **[ " ${x} " ]`)
+        message.channel.send(`**Eco Is :heart: !! **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -100,7 +100,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`** Redo is 💜 !! **[ " ${x} " ]`)
+        message.channel.send(`** Redo Is 💜 !! **[ " ${x} " ]`)
           .then(m => {
             count++;
           })

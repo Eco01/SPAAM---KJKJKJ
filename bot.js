@@ -195,7 +195,7 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "1say") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
@@ -211,7 +211,7 @@ client2.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "2say") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
@@ -227,7 +227,7 @@ client3.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "3say") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }

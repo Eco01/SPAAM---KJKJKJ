@@ -27,7 +27,7 @@ client2.on('ready', () => {
 //spam code 1
 client.on('message', message => {
     if(message.content === prefix+'1give'){
-        message.channel.send('#credits @Eco 1000')
+        message.channel.send('#credits @Eco#9912 1000')
     }
 });
 client.on('message', message => {
@@ -84,7 +84,7 @@ if (!rank) return message.reply(' ')
 //bot 2
 client2.on('message', message => {
     if(message.content === prefix+'2give'){
-        message.channel.send('#credits @Eco 1000')
+        message.channel.send('#credits @Eco#9912 1000')
     }
 });
 
@@ -142,7 +142,7 @@ if (!rank) return message.reply(' ')
 //bot 3
 client3.on('message', message => {
     if(message.content === prefix+'3give'){
-        message.channel.send('#credits @Eco 1000')
+        message.channel.send('#credits @Eco#9912 1000')
     }
 });
 

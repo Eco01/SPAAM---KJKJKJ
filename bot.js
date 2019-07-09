@@ -6,7 +6,7 @@ const prefix = ['-'];
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`Credit Farmm  `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -25,19 +25,19 @@ client2.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === prefix+'راتب'){
+    if(message.content === prefix+'daily'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === prefix+'مبلغ'){
+    if(message.content === prefix+'credits'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === prefix+'ريب'){
+    if(message.content === prefix+'rep'){
         message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
@@ -47,7 +47,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**Hello my friend **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
